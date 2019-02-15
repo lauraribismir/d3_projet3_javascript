@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Horses</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>THE FUTUR  <span class="" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Horses</h1>
+			<nav>
+				<!--<a href="http://tympanus.net/Blueprints/FilterableProductGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+
+				<a href="http://tympanus.net/codrops/?p=24330" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+				<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+			</nav>-->
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/iphone.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/osature.jpg" alt="Beauty" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>A N A T O M I A</span> Stronger</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/ipad.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/crane.jpg" alt="Skull" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>A N A T O M I A</span>Skull</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/trois.jpg" alt="MacBook" />
+						<div class="preview">
+							<img src="images/trois.jpg" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>A N A T O M I A</span> Team</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/imac.png" alt="iMac" />
+						<div class="preview">
+							<img src="images/tete2.jpg" alt="Tete" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>A N A T O M I A</span> Head</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/membres.jpg" alt="Apple Watch" />
+						<div class="preview rounded">
+							<img src="images/membres.jpg" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>A N A T O M I A</span> Arm</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/fesses.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Stronger</h2>
+					<h3>Montagne de courage</h3>
+					<p>Le cavalier doit prendre l’habitude de garder son cheval dans le « couloir », c’est-à-dire sur les 4 pieds et perpendiculaire aux obstacles, pour éviter qu’il ne s’écarte du tracé à l’intérieur de la ligne. Il doit également se préoccuper de sa position et apprendre à accompagner chaque saut dans la souplesse et la légèreté sans gêner le mouvement. La main doit notamment laisser au cheval la possibilité d’utiliser le balancier de son encolure durant toutes les phases du saut.</p>
+				<br><br>Marcus Ethning.</div>
+
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/arabe.jpg" alt="Arabe" />
+				<div class="content__item-inner">
+					<h2>Expression</h2>
+					<h3>Faciès</h3>
+					<p>Avec sa tête très typée et son port de queue relevé, l'arabe fait partie des races les plus facilement identifiables. Il est souvent cité comme le « plus beau cheval du monde ». C'est aussi l'une des races les plus anciennes qui soient, des fouilles archéologiques ayant prouvé que des chevaux caspiens, très proches physiquement de l'arabe, vivaient en Mésopotamie dès la plus haute antiquité. Au cours de l'histoire, les chevaux arabes ont quitté leur Moyen-Orient natal pour gagner d'autres régions à l'occasion de guerres ou d'échanges commerciaux. Ils sont utilisés en croisement pour apporter de la vitesse, de l'endurance, de l'élégance et des os solides aux autres races de chevaux. On trouve désormais des arabes dans la plupart des élevages modernes de chevaux de selle.</p>
+					<br><br>Lorenzo.
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/troupeau.jpg" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>Team</h2>
+					<h3>Mustang</h3>
+					<p>Dans la harde, il existe une hiérarchie de type dominant/dominé, établie généralement en fonction de l'âge des individus et de leur tempérament. La hiérarchie n'est absolument pas pyramidale, sauf exception liée au hasard des individus. Si A domine B et que B domine C, alors A ne domine pas forcément C. Cette hiérarchie se stabilise au bout de quelques mois de vie commune et n'est en général pas ou peu remise en cause (les juments en gestation auraient tendance à gagner un peu en dominance sur les autres, mais ceci reste anecdotique). Au sein du groupe, l'ordre et la hiérarchie se maintiennent par des manœuvres d'intimidation, notamment via un langage corporel très développé : le cheval se défend ou se fait respecter des autres par des menaces précédant si nécessaire des ruades ou des morsures.</p>
+						<br><br>Zingaro.
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/dent.jpg" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Head</h2>
+					<h3>Herbivore</h3>
+					<p>Un cheval mâle adulte possède 40 dents, mais peut en avoir 44 au maximum. Les juments adultes ont 36 dents. Les mâles ont deux paires de canines de plus que les juments sur la mâchoire inférieure et supérieure. Ces canines sont un héritage de l'eohippus, ancêtre omnivore du cheval. La dentition définitive est acquise à l'âge de six ans environ. Les dents du cheval sont en croissance permanente, ce qui lui permet de manger des plantes abrasives comme les graminées. Dans la nature, l'usure due à la mastication compense la pousse des dents. Elle permet aussi de connaître l'âge de l'animal jusqu’à ses douze ou treize ans2, d'après Butler, il est possible de déterminer l'âge des chevaux jusqu’à leurs trente ans4.</p>
+					<br><br>Rodrigo Passoa.
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/sabot.jpg" alt="Head" />
+				<div class="content__item-inner">
+					<h2>Arm</h2>
+					<h3>Agilité</h3>
+					<p>La phase de réception est la plus critique d’un point de vue “santé”. C’est là que la plupart des risques se concentrent. En effet, l’antérieur qui se pose en premier (sur la photo (7)antérieur gauche) peut encaisser des forces allant jusqu’à quatre fois le poids du cheval. Les boulets descendent très fort, ce qui met en forte tension les tendons situés à l’arrière (les tendons fléchisseurs, à savoir le perforé et le perforant). De plus, les sangles musculaires qui retiennent le tronc entre les antérieurs doivent être souples pour pouvoir se contracter dans l’étirement. </p>
+					<br><br>Alexandra Juang.
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
